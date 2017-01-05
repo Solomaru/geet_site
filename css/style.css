@@ -1,6 +1,7 @@
 body {
     background-color:#f8f8f8;
     font-size: 18px;
+    font-family: Comic Sans MS;
 }
 /*--- Общие правила ---*/
 h1{
@@ -22,12 +23,20 @@ h1{
     font-style:italic;
     line-height:16px;
 }
+.kratkoe:first-letter{
+         font-family: Verdana ;
+         font-size:20px;
+}
 .podrobnoe{
     color: #484343;
     font-size:17px;
     font-weight:400;
     line-height:24px;
     text-align:left;
+}
+.podrobnoe:first-letter{
+         font-family: Arial ;
+         font-size:20px;
 }
 .haract{
     color: #484343;
@@ -88,12 +97,43 @@ ul li a:hover{
 
 
 input{
+
     width: 300px;
     height:30px;
     border-radius:5px;
     color:#4B4BAF;
     font-size:16px;
     padding-left:5px;
+    text-transform: capitalize; 
+}
+
+
+input[type="email"]:focus{
+    background-color:#5B5BAF; 
+    color:#eee;
+}
+
+table{
+    width: 600px;
+    height: 250px;
+    border:1px solid;
+    margin-left: 30px;
+    border-collapse: collapse;
+
+}
+table td{
+   border:1px solid;
+  padding-left: 30px;
+}
+
+.foto_tov img{
+    border:20px solid #8686D6;
+    border-radius: 5px;
+}
+.foto_tov img:hover{
+    border:none;
+    margin:20px;
+  
 }
 
 
