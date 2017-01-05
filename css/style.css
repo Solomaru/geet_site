@@ -2,6 +2,12 @@ body {
     background-color:#f8f8f8;
     font-size: 18px;
 }
+/*--- Общие правила ---*/
+h1{
+  color: #5B5BAF;  
+}
+
+/*---end Общие правила ---*/
 /*--- Tavar ---*/
 .z_h{
    color: black;
@@ -38,6 +44,26 @@ body {
 }
 /*---end tavar ---*/
 
+/*--- logo ---*/
+.logo{
+    font-family: Comic Sans MS ;
+    font-size:47px;
+    font-weight: bold;
+    margin:25px;
+    color:#414146;
+
+}
+.logo:after{
+    content:".ru";
+    font-size:27px;
+    color: #4B4BAF;
+}
+.logo:first-letter{
+    font-size:55px;
+    color: #4B4BAF;
+}
+/*---end logo ---*/
+
 /*--- Menu ---*/
 .menu{
     list-style: none;
@@ -51,8 +77,11 @@ ul li a{
     line-height: 18px;
     padding: 10px 10px;
     display: inline-block;
-    margin: 5px;
-    
+    margin: 5px;   
+}
+ul li a:hover{
+    color: #eee;
+    background-color: #5B5BAF;
 }
 /*---end Menu ---*/
 
