@@ -1,0 +1,84 @@
+body {
+    background-color:#f8f8f8;
+    font-size: 18px;
+}
+/*--- Tavar ---*/
+.z_h{
+   color: black;
+   font-size:19px;
+    font-weight:400;
+    background-color:#eaeaea;
+}
+
+.kratkoe{
+    color: #707070;
+    font-size:16px;
+    font-style:italic;
+    line-height:16px;
+}
+.podrobnoe{
+    color: #484343;
+    font-size:17px;
+    font-weight:400;
+    line-height:24px;
+    text-align:left;
+}
+.haract{
+    color: #484343;
+    font-size:16px;
+    font-weight:400;
+    line-height:30px;        
+}
+.haract li {
+    list-style:none;
+    background: url(../images/strel1.jpg) left center no-repeat ;
+    background-size:18px;
+    padding:4px 0 4px 30px;
+   
+}
+/*---end tavar ---*/
+
+/*--- Menu ---*/
+.menu{
+    list-style: none;
+}
+ul li a{
+    color: #fff;
+    font-size: 20px;
+    background-color: #4B4BAF;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 18px;
+    padding: 10px 10px;
+    display: inline-block;
+    margin: 5px;
+    
+}
+/*---end Menu ---*/
+
+
+
+input{
+    width: 300px;
+    height:30px;
+    border-radius:5px;
+    color:#4B4BAF;
+    font-size:16px;
+    padding-left:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
