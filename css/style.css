@@ -7,21 +7,74 @@ body {
 h1{
   color: #5B5BAF;  
 }
-
+p{
+    padding: 10px;
+}
 /*---end Общие правила ---*/
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid;
+    height: 180px;
+}
+.footer{
+    height: 190px;
+    background-color: #eee;
+    border-top: 3px #4B4BAF solid;
+    border-radius:15px 15px 0 0; 
+    clear: both;
+}
+.footer p{
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 20px;
+}
 /*--- Tavar ---*/
+.block_kratkoe{
+   overflow: hidden;
+   padding: 20px;
+    margin-left: 20px;   
+}
+.block_kratkoe a{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #6060C1;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 18px;
+    padding: 10px 15px;
+}
+.block_kratkoe a:hover{
+     color: #eee;
+    background-color: #4646A0;
+    font-size: 25px;
+
+}
+.block_kratkoe .z_h{
+    clear: none;
+    
+    /*overflow: hidden;*/
+}
 .z_h{
    color: black;
    font-size:19px;
     font-weight:400;
     background-color:#eaeaea;
+    clear: both;
 }
 
 .kratkoe{
     color: #707070;
     font-size:16px;
     font-style:italic;
-    line-height:16px;
+    line-height:20px;
+    padding: 20px;
+
 }
 .kratkoe:first-letter{
          font-family: Verdana ;
@@ -33,6 +86,7 @@ h1{
     font-weight:400;
     line-height:24px;
     text-align:left;
+     padding: 20px;
 }
 .podrobnoe:first-letter{
          font-family: Arial ;
@@ -42,7 +96,8 @@ h1{
     color: #484343;
     font-size:16px;
     font-weight:400;
-    line-height:30px;        
+    line-height:30px;  
+
 }
 .haract li {
     list-style:none;
@@ -58,8 +113,9 @@ h1{
     font-family: Comic Sans MS ;
     font-size:47px;
     font-weight: bold;
-    margin:25px;
+    margin:30px;
     color:#414146;
+    float: left;
 
 }
 .logo:after{
@@ -74,8 +130,15 @@ h1{
 /*---end logo ---*/
 
 /*--- Menu ---*/
+.block_menu{
+    float: right;
+    margin-top: 100px;
+}
 .menu{
     list-style: none;
+}
+.menu li{
+    float: left;
 }
 ul li a{
     color: #fff;
@@ -126,6 +189,10 @@ table td{
   padding-left: 30px;
 }
 
+.foto_tov{
+    float: left;
+    margin-bottom: 25px;
+}
 .foto_tov img{
     border:20px solid #8686D6;
     border-radius: 5px;
@@ -136,8 +203,21 @@ table td{
   
 }
 
+.block_tovar{
+    border: 1px solid;
+    float: left;
+    margin:25px;
+    border-radius: 8px;
+}
+.block_tovar h4{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.cont_kategori{
+       width: 80%;
+    margin: 0 auto;
 
-
+}
 
 
 
